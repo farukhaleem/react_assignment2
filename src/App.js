@@ -4,7 +4,7 @@ import Employee from './employee';
 function App() {
   return (
     <div>
-      <div style={{textAlign:'center', fontFamily:'sans-serif'}}>
+      <div style={{textAlign:'left', fontFamily:'sans-serif'}}>
         <Employee empName={'Farhan'} empId={1}/><hr />    
         <Employee empName={'Haider'} empId={2}/><hr />    
         <Employee empName={'Zeeshan'} empId={3}/><hr />    
