@@ -27,7 +27,7 @@ jobs:
         # same as npm install or yarn install
     
     - name: creating build
-      run: yarn build     
+      run: npm build     
       
     - name: installing surge  
       run: npm install -g surge
